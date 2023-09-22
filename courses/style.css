@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Oswald:wght@500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+nav{
+    width: 100%;
+    height:11vh;
+    background-color: rgb(174, 0, 209);
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_box {
+    width: 40%;
+    padding-left: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input_box input{
+
+    width: 70%;
+    border: none;
+    outline: none;
+    height: 35px;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding-left: 12px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+}
+
+.input_box input::placeholder{
+    color: rgb(225, 225, 225);
+}
+
+.reg_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    gap: 30px;
+    height: 100%;
+    padding-right: 10px;
+}
+
+.reg_box button{
+    box-shadow: 2px 5px 10px 1px rgb(206, 65, 245);
+    font-weight: 700;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: purple;
+}
+
+#sign {
+    margin-left: 90px;
+    border-radius: 5px;
+    background-color: rgb(192, 21, 226);
+    box-shadow: 3px 4px 10px 2px white;
+    color: white;
+}
+
+.context_box{
+    min-height: 89vh;
+    width: 100%;  
+    display: flex;
+    flex-direction: column;
+}
+
+.recomended_section{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 15px;
+    padding-left: 30px;
+    color: rgb(174, 0, 209);
+    font-family: sans-serif;
+    
+}
+
+.recomended_section h1{
+    width: 400px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid rgba(174, 0, 209, 0.668);
+}
+
+.card_section{
+    padding-left: 5px;
+    width: 100%;
+    min-height: 80%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.card{
+    width: 350px;
+    height:90%;
+    border-radius: 8px;
+    border: 2px solid rgba(174, 0, 209, 0.668);
+    background-color: rgba(119, 119, 121, 0.286);
+    overflow: hidden;
+}
+
+.card_img_box{
+    width: 100%;
+    height: 50%;
+    background-color: blue;
+}
+
+.card_img_box img{
+    width: 100%;
+    height: 100%;
+}
+
+.card_info_box{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.course_name{
+    padding-top: 5px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.course_description{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(162, 8, 189);
+    display: flex;
+    justify-content: center;
+}
+
+.course_description h5{
+    width: 90%;
+}
+
+.card button{
+    width: 200px;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    color: rgb(185, 24, 213);
+    font-weight: 900;
+    cursor: pointer;
+    box-shadow: 2px 4px 9px 1px  rgb(185, 24, 213);
+}
